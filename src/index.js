@@ -4,9 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const HelloComponent = () => {
+  return <p>Hello Function Component</p>
+}
+
+class StateFullComponent extends React.Component {
+  render(){
+    return <p>Hello StateFull Component</p>
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <HelloComponent/>
+    <StateFullComponent/>
   </React.StrictMode>,
   document.getElementById('root')
 );
