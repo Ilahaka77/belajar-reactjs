@@ -3,16 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelloComponent from './components/HelloComponent';
+import StateFullComponent from './containers/StateFullComponent'
 
-const HelloComponent = () => {
-  return <p>Hello Function Component</p>
-}
+// const HelloComponent = () => {
+//   return <p>Hello Function Component</p>
+// }
 
-class StateFullComponent extends React.Component {
-  render(){
-    return <p>Hello StateFull Component</p>
-  }
-}
+// class StateFullComponent extends React.Component {
+//   render(){
+//     return <p>Hello StateFull Component</p>
+//   }
+// }
 
 ReactDOM.render(
   <React.StrictMode>
